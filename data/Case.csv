@@ -1,0 +1,4 @@
+Guid,AccountId,SuppliedName,SuppliedEmail,SuppliedPhone,SuppliedCompany,Type,Status,Reason,Origin,Subject,Priority,Description,IsEscalated,Comments
+28f57ab4-a918-4f25-ac8b-e5238e2494f2,67c518b8-1e41-4db7-abd0-0e7b68b393d8,#N/A,#N/A,#N/A,#N/A,Question,New,Existing problem,Email,#N/A,Medium,#N/A,false,#N/A
+798fa911-2bed-44dd-b83f-55aa1c06ef09,cdd46f82-e901-4298-ba30-cd176d3869b5,#N/A,#N/A,#N/A,#N/A,#N/A,New,#N/A,#N/A,#N/A,Medium,#N/A,false,#N/A
+e2612059-4416-4fb2-a981-adb3b88316c9,cdd46f82-e901-4298-ba30-cd176d3869b5,#N/A,#N/A,#N/A,#N/A,#N/A,New,#N/A,#N/A,#N/A,Medium,#N/A,false,#N/A
