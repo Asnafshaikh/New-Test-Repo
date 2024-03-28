@@ -20,7 +20,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>NEWFIELDCASE__c</field>
+                <field>LABEL__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
