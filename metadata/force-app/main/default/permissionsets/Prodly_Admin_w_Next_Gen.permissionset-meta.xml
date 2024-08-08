@@ -418,15 +418,11 @@
     </classAccesses>
     <customPermissions>
         <enabled>true</enabled>
-        <name>PDRI__AppOps_Account_Settings_Manage</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
         <name>PDRI__AppOps_Control_Instance_Manage</name>
     </customPermissions>
     <customPermissions>
         <enabled>true</enabled>
-        <name>PDRI__AppOps_Metadata_Manage</name>
+        <name>PDRI__Prodly_Next_Gen_Data_Deploy</name>
     </customPermissions>
     <customSettingAccesses>
         <enabled>true</enabled>
@@ -1740,6 +1736,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>PDRI__Metadata_Component_Deployment_Result__c.PDRI__Operation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>PDRI__Metadata_Component_Deployment_Result__c.PDRI__Problem_Line_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2734,4 +2735,8 @@
         <tab>PDRI__Moover_Admin</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewEncryptedData</name>
+    </userPermissions>
 </PermissionSet>

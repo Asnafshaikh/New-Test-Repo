@@ -8,6 +8,7 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>ACCOUNT.CREATED_DATE</columns>
     <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <label>All Accounts</label>
 </ListView>

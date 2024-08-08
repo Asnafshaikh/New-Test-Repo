@@ -23,12 +23,50 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Testing</name>
+        <label>Testing</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>null__NotFound</field>
+            <value>
+                <stringValue>shaikh</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>null__NotFound</field>
+            <value>
+                <stringValue>123</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Records_1</name>
+        <label>Update Records 1</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <connector>
+            <targetReference>Testing</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>null__NotFound</field>
+            <value>
+                <elementReference>Update_Records_1</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
-        <object>Account</object>
+        <connector>
+            <targetReference>Update_Records_1</targetReference>
+        </connector>
+        <object>Case</object>
         <recordTriggerType>Create</recordTriggerType>
-        <triggerType>RecordBeforeSave</triggerType>
+        <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>InvalidDraft</status>
 </Flow>
